@@ -11,9 +11,9 @@ body {
 	font-family: 'Product Sans1', sans-serif;
 	background: #1c1c1c;
 	background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center top;
-    background-attachment: fixed;
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: fixed;
 	background-color: #1c1c1c;
 	color: white;
 	font-size: 20px;
@@ -53,7 +53,8 @@ input {
 	top: -2px;
 }
 .icons a:not(:last-of-type) {
-	padding-right: 20px;
+	margin-right: 20px;
+	padding: 0;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -67,4 +68,14 @@ input {
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #fff;
+}
+
+a {
+	padding-bottom: 2px !important;
+	border-bottom: 1px solid transparent;
+}
+
+a:hover {
+	border-bottom: 1px solid white;
+	transition: all 0.3s ease !important;
 }
