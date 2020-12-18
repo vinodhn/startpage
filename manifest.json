@@ -1,0 +1,12 @@
+{
+    "name": "/home",
+    "description": "A simple new tab interface with beautiful pictures",
+    "version": "1.0",
+    "permissions" : ["storage"],
+    "chrome_url_overrides": {"newtab": "index.html"},
+    "background": {
+        "scripts":["main.js"],
+        "persistent":false
+    },
+    "manifest_version": 2
+}

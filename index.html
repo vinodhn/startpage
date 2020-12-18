@@ -1,41 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
 
-		<title>Home</title>
+		<title>New Tab</title>
 
-		<link href="lib/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 		<link href="style.css" rel="stylesheet">
 	</head>
 
 	<body class="text-center">
-		<h1 class="hello">Hello !</h1>
-		<div class="search">
-			<form action="https://duckduckgo.com/" method="get" target="_self" autocomplete="off">
-				<input type="text" name="q" placeholder="Search" autofocus="autofocus" onfocus="this.select()">
-			</form>
-		</div>
-		<div class="icons">
-			<a href="https://www.youtube.com/feed/subscriptions">
-				<img src="img/1.png"> Youtube
+		<div class="transparent-card">
+			<h1 class="time" id="time"></h1>
+			<h2 id="hello"></h2>
+			<a href="https://calendar.google.com/" class="date">
+				<h2 class="date" id="date">Today is Tuesday, December 15, 2020</h2>
 			</a>
-			<a href="https://github.com">
-				<img src="img/2.png"> Github
-			</a>
-			<a href="https://twitch.com">
-				<img src="img/4.png"> Twitch
-			</a>
-			<a href="https://reddit.com">
-				<img src="img/5.png"> Reddit
-			</a>
+			<div class="icons">
+				<a href="https://www.youtube.com/">
+					<div class="card">
+						YouTube
+					</div>
+				</a>
+				<a href="https://www.messenger.com/">
+					<div class="card">
+						Messenger
+					</div>
+				</a>
+				<a href="https://discord.com/app">
+					<div class="card">
+						Discord
+					</div>
+				</a>
+				<a href="https://www.reddit.com/">
+					<div class="card">
+						Reddit
+					</div>
+				</a>
+				<a href="https://www.outlook.com/owa">
+					<div class="card">
+						Outlook
+					</div>
+				</a>
+			</div>
 		</div>
 		<script src="flow-field/assets/p5.min.js"></script>
 		<script src="flow-field/assets/index.js"></script>
+		<script src="main.js"></script>
 	</body>
 
 </html>
